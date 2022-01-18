@@ -107,7 +107,7 @@ API reference for Data Mangement API about hubs(accounts),projects, folders, mod
 
 ## License
 
-This sample is licensed under the terms of the [MIT License](http://opensource.org/licenses/MIT). Please see the [LICENSE](LICENSE) file for full details.
+This sample is licensed under the terms of the [MIT License](http://opensource.org/licenses/MIT). Please see the [LICENSE](./LICENSE.md) file for full details.
 
 ## Written by
 -	[Don Whittle](https://www.linkedin.com/in/don-whittle-4869088), Model Coordination engineering team, Autodesk.
