@@ -95,7 +95,7 @@ This repository is comprised of the following top level folders.
 
 ### Additional Tests
 
-After you are familar with the query schema, you could test with more complex schemas. Some advanced examples are available at [](doc/examples/README.md).
+After you are familar with the query schema, you could test with more complex schemas. Some advanced examples are available at [Query Examples](doc/examples/README.md).
 
 
 ## Further Reading
