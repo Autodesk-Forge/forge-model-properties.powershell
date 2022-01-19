@@ -17,9 +17,9 @@ This repository demonstrates a set of samples and scripts which can be used to e
 
 This repository is comprised of the following top level folders.
 
- - [models](./models):  A set of sample RVT, DWG and IFC models which can be used with these samples, including two versions of same model (for testing diff properties)     |
+ - [models](./models):  A set of sample RVT, DWG and IFC models which can be used with these samples, including two versions of same model (for testing diff properties)     
  - [scripts](./scripts): PowerShell demo scripts which can be used to build indexes and run queries
- - [src](./src) : A PowerShell script module providing cmdlets for building and querying indexes. Also including utility functions of Data Management API of Forge |
+ - [src](./src) : A PowerShell script module providing cmdlets for building and querying indexes. Also including utility functions of Data Management API of Forge 
  - [doc](./doc): Additional documentations and snippets detailing the features of the indexing service
  
 
@@ -111,4 +111,4 @@ This sample is licensed under the terms of the [MIT License](http://opensource.o
 
 ## Written by
 -	[Don Whittle](https://www.linkedin.com/in/don-whittle-4869088), Model Coordination engineering team, Autodesk.
--	reviewed by Xiaodong Liang [@coldwood](https://twitter.com/coldwood), [Forge Partner Development](http://forge.autodesk.com),Autodesk
+-	reviewed and edited by Xiaodong Liang [@coldwood](https://twitter.com/coldwood), [Forge Partner Development](http://forge.autodesk.com),Autodesk
