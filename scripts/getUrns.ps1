@@ -37,7 +37,6 @@ try {
     Set-ForgeToken -Token $ForgeToken; 
 
     #Data Management API requires project id with 'b.'
-   
     $response = Get-ForgeFolderContents -ProjectId $ProjectId -FolderUrn $FolderUrn;
     
     # create the output dir if it does not exist
@@ -46,12 +45,11 @@ try {
         New-Item -Path $outDir -ItemType Directory | Out-Null;
     }    
     
-    if ($null -ne $response){
-        $response | ConvertTo-Json -depth 100 | Out-File $outDir'\folder-contents.json'
-    }else{
+    if ($null -ne $response) {
+        $response | ConvertTo-Json -depth 10 | Out-File "$outDir\folder-contents.json";
+    } else {
         $_;
-    } 
- 
+    }
 }
 catch {
     $_;

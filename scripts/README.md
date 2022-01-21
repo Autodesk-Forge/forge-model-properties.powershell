@@ -4,13 +4,14 @@
 
 ### Description
 
-This script can be used to get contents of one folder in the project, in order to get urns of some models for the subsequent tests of Model Properties. It calls [Data Management API](https://forge.autodesk.com/en/docs/data/v2/reference/http/) of Forge. It only extracts first page of the folder. Note: project id for Data Management API requires 'b.' 
+This script can be used to get contents of one folder in one project, in order to get URNs of the models which can be used in subsequent tests of the Model Properties API. This script calls the Forge [Data Management API](https://forge.autodesk.com/en/docs/data/v2/reference/http/). This script only returns one page of folder content. Note: project ID for Data Management API calls requires 'b.' prefix to the project GUID. 
 
 ### Example
 
 ```PowerShell
 # set a token and project
 $3loToken = 'YOUR 3LO FORGE TOKEN HERE';
+
 #Data Management API requires project id with 'b.' 
 #e.g. b.55b9a76f-ff85-4831-8bee-e2cedc10b967 
 $dmProjectId = 'YOUR PROJECT GUID HERE'; 
@@ -24,13 +25,13 @@ $folderUrn = 'YOUR FOLDER URN HERE';
 
 | Parameter            | Type     | Description                                                          |
 | -------------------- | -------- | -------------------------------------------------------------------- |
-| `-projectId`         | `string`   | A ACC/BIM 360 project ID (with b.)  
+| `-dmProjectId`         | `string`   | A ACC/BIM 360 project ID (with b.)  
 | `-folderUrn`         | `string`   | Urn of one folder|
 | `-ForgeToken`        | `string` | A Forge OAuth 2.0 3LO token string                                   |
 
 ### Output
 
-This script  will output the response data to `.\out\folder-contents.json`. 
+This script  will output the response data to **.\out\folder-contents.json**. 
 
 
 ## createIndex.ps1

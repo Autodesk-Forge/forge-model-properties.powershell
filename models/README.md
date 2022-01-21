@@ -39,11 +39,11 @@ Take the, `RVT`, `DWG` and `IFC` files from the [/audubon/mixed](./audubon/mixed
 
 ### Step 4: Get the tip version URNs for the uploaded models
 
-In order to build an index you will need the URNs of the files you have just uploaded. The [ForgeCLI](./src/ForgeCLI.psd1) script module contains various cmdlets which call the Forge Data Management API. The example below shows how they can be used to get the version URNs of the files uploaded in the previous step.
+In order to build an index you will need the URNs of the files you have just uploaded. The [ForgeCLI](../src/ForgeCLI.psd1) script module contains various cmdlets which call the Forge Data Management API. The example below shows how they can be used to get the version URNs of the files uploaded in the previous step.
 </br>
 </br>
 
-> Note the use of the default `$PSScriptRoot` variable in the snippet below. `$PSScriptRoot` is set to the folder containing the script currently being executed by the PowerShell host. In order to get the sample to run you would need to save a script containing these lines in the [src](./src) folder. The [.gitignore](./.gitignore) file in this repo is configured to ignore any file with a name ending `.test.ps1`. When running this script you will also need to supply a `3LO` (user) OAuth token as the indexing service does not currently support `2LO` or `2LO+I`.
+> Note the use of the default `$PSScriptRoot` variable in the snippet below. `$PSScriptRoot` is set to the folder containing the script currently being executed by the PowerShell host. In order to get the sample to run you would need to save a script containing these lines in the [src](../src) folder. The [.gitignore](../.gitignore) file in this repo is configured to ignore any file with a name ending `.test.ps1`. When running this script you will also need to supply a `3LO` (user) OAuth token as the indexing service does not currently support `2LO` or `2LO+I`.
 
 </br>
 </br>
