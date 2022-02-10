@@ -47,7 +47,7 @@ This repository is comprised of the following top level folders.
 
 1.  Clone this sample project or download it. It's recommended to install [GitHub desktop](https://desktop.github.com/). To clone it via command line, use the following (**Terminal** on MacOSX/Linux, **Git Shell** on Windows):
 
-    ```git clone https://github.com/autodesk-forge/...```
+    ```git clone https://github.com/Autodesk-Forge/forge-model-properties.powershell```
 
     This repo ships with a set of sample models at [models](./models) folder which illustrate the features of the indexing service. Make sure you have support for [git large file storage](https://git-lfs.github.com/). To check if your command line git client has lfs support available try the following at the command line. 
 
