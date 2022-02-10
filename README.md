@@ -62,15 +62,15 @@ This repository is comprised of the following top level folders.
     git-lfs/3.0.2 (GitHub; darwin amd64; go 1.17.2)
     ```
 
-2. Model Properties supports 3-legged token only. To get **3-legged token**, you could use web browser application such as [LearnForge ViewhubModel](https://learnforge.autodesk.io/#/tutorials/viewhubmodels), or utility such as [blazor web app](https://git.autodesk.com/whittld/WebAuth), or test tool such as Postman([one example](https://github.com/Autodesk-Forge/forge-autodesk.build.api-postman.collection/tree/main/Forms%20API)), or other scripts of utility. Make a note with the **3-legged token**
-
-3. Upload sample models to your test project file folders of BIM360 or ACC. It is suggested to create a new folder when learning the API. Make a note with the **Folder Urn** (copy it from browser url). 
+2. Upload sample models to your test project file folders of BIM360 or ACC. It is suggested to create a new folder when learning the API. Make a note with the **Folder Urn** (copy it from browser url). 
 
       <p align="center"><img src="./doc/img/folder-urn.png" width="600" ></p> 
 
       All of the example queries in this repository have been tested against the models in [models](./models) folder . You could also adapt the examples in this repository to your own data, however if you want to contribute samples to this project you will need to test these against the sample models. 
 
-4.  After the uploaded models have been proceessed in BIM360 or ACC, get **version urns** of some models. you could run [getUrns.ps1](scripts/getUrns.ps1), or use other ways to get the model version urns.
+3. Model Properties supports 3-legged token only. To get **3-legged token**, you could use web browser application such as [LearnForge ViewhubModel](https://learnforge.autodesk.io/#/tutorials/viewhubmodels), or utility such as [blazor web app](https://git.autodesk.com/whittld/WebAuth), or test tool such as Postman([one example](https://github.com/Autodesk-Forge/forge-autodesk.build.api-postman.collection/tree/main/Forms%20API)), or other scripts of utility. Make a note with the **3-legged token**
+
+4. After the uploaded models have been proceessed in BIM360 or ACC, get **version urns** of some models. you could run [getUrns.ps1](scripts/getUrns.ps1) in [Demo Walkthough Scripts](scripts), or use other ways to get the model version urns.
 
       To run getUrns.ps1, input **project id (with b.)**, **folder urn** and **3-legged token**. It will dump the contents of the folder to a json file. In the json, copy out with some model version urns. If you work with Diff properties, copy two version urns of one model (in this sample, it provides two versions file: [Audubon_Mechanical.rvt v1](models/audubon/revit/v1/Audubon_Mechanical.rvt) and [Audubon_Mechanical.rvt v2](models/audubon/revit/v2/Audubon_Mechanical.rvt)
 
