@@ -25,11 +25,13 @@ This repository is comprised of the following top level folders.
 ### Demonstrations
 
 **In PowerShell Console**
-[![https://youtu.be/X2FCxfJi2g8](https://img.youtube.com/vi/7gmS6cUkLN4/0.jpg)](https://youtu.be/z0aL5xMbQP0 "Forge Model Differences by Index API of BIM360")
+
+   [![https://youtu.be/X2FCxfJi2g8](https://img.youtube.com/vi/7gmS6cUkLN4/0.jpg)](https://youtu.be/z0aL5xMbQP0 "Forge Model Differences in PowerShell Console")
 
 
 **In VSCode**
-[![https://youtu.be/soya1pJ_W5o](https://img.youtube.com/vi/soya1pJ_W5o/0.jpg)](https://youtu.be/soya1pJ_W5o0 ""Model Properties API walkthrough in VSCode ")
+
+   [![https://youtu.be/soya1pJ_W5o](https://img.youtube.com/vi/soya1pJ_W5o/0.jpg)](https://youtu.be/soya1pJ_W5o0 ""Model Properties API walkthrough in VSCode ")
 
 
 ### Prerequisites
