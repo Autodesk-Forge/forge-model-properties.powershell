@@ -31,7 +31,7 @@ This repository is comprised of the following top level folders.
 
 **In VSCode**
 
-   [![https://youtu.be/soya1pJ_W5o](https://img.youtube.com/vi/soya1pJ_W5o/0.jpg)](https://youtu.be/soya1pJ_W5o0 ""Model Properties API walkthrough in VSCode ")
+   [![https://youtu.be/soya1pJ_W5o](https://img.youtube.com/vi/soya1pJ_W5o/0.jpg)](https://youtu.be/soya1pJ_W5o0 "Model Properties API walkthrough in VSCode")
 
 
 ### Prerequisites
