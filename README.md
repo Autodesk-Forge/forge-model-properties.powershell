@@ -21,7 +21,16 @@ This repository is comprised of the following top level folders.
  - [scripts](./scripts): PowerShell demo scripts which can be used to build indexes and run queries
  - [src](./src) : A PowerShell script module providing cmdlets for building and querying indexes. Also including utility functions of Data Management API of Forge 
  - [doc](./doc): Additional documentations and snippets detailing the features of the indexing service
- 
+
+### Demonstrations
+
+**In PowerShell Console**
+[![https://youtu.be/7gmS6cUkLN4](https://youtu.be/7gmS6cUkLN4/0.jpg)](https://youtu.be/7gmS6cUkLN4 "Model Properties API walkthrough in PowerShell Console")
+
+
+**In VSCode**
+[![https://youtu.be/soya1pJ_W5o](https://youtu.be/soya1pJ_W5o/0.jpg)](https://youtu.be/soya1pJ_W5o0 ""Model Properties API walkthrough in VSCode ")
+
 
 ### Prerequisites
 
