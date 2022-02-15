@@ -26,7 +26,7 @@ This repository is comprised of the following top level folders.
 
 **In PowerShell Console**
 
-   [![https://youtu.be/X2FCxfJi2g8](https://img.youtube.com/vi/7gmS6cUkLN4/0.jpg)](https://youtu.be/z0aL5xMbQP0 "Forge Model Differences in PowerShell Console")
+   [![https://youtu.be/7gmS6cUkLN4](https://img.youtube.com/vi/7gmS6cUkLN4/0.jpg)](https://youtu.be/7gmS6cUkLN4 "Forge Model Differences in PowerShell Console")
 
 
 **In VSCode**
