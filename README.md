@@ -1,3 +1,7 @@
+
+# DEPRECATED
+This repository has been deprecated and migrated to https://github.com/autodesk-platform-services/aps-model-properties.powershell
+
 # Model Properties API Walkthrough in PowerShell Core
 
 [![PowerShell Core](https://img.shields.io/badge/PowerShell-7.2.1-blue.svg)](https://github.com/PowerShell/PowerShell)
